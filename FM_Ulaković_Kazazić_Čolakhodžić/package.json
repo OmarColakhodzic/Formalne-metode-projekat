@@ -11,6 +11,6 @@
     "mocha": "^10.0.0"
   },
   "devDependencies": {
-    "chromedriver": "^119.0.6045"
+    "chromedriver": "latest"
   }
 }
