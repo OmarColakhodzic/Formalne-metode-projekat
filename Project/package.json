@@ -1,0 +1,18 @@
+{
+  "name": "seaview-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha test/seaview.test.js --timeout=120000",
+    "test:quick": "mocha test/seaview.test.js --grep \"TC-281220251\" --timeout=120000",
+    "webdriver-update": "webdriver-manager update",
+    "postinstall": "npm run webdriver-update"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "webdriver-manager": "^12.1.9"
+  }
+}
